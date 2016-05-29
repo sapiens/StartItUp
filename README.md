@@ -1,12 +1,7 @@
-# Strapboot
+# Start It Up!
 Bootstrap your .Net apps. in an organized manner.
-Requires DI Container (only Autofac is supported for now).
 
-Version: [1.6.0](https://github.com/sapiens/Strapboot/wiki/ChangeLog)
-
-## Features
-* Static settings container 
-* Automatically executes config tasks in the order specified by convention
+Version: [1.6.0](https://github.com/sapiens/startitup/wiki/ChangeLog)
 
 ## License
 
