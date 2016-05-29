@@ -1,0 +1,38 @@
+﻿{
+    "version": "2.0.0-beta1",
+    "description": "Light toolkit to organize and execute your app's startup tasks in a maintainable manner",
+    "authors": [ "Mihai Mogosanu" ],
+    "packOptions": {
+        "tags": [ "bootstrap", "startup", "configuration","task" ],
+        "projectUrl": "https://github.com/sapiens/strapboot",
+        "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.html",
+        "owners": [ "Mihai Mogosanu" ]
+    }
+
+    ,
+    "dependencies": {
+
+        "CavemanTools": "4.3.1"
+
+    },
+    "frameworks": {
+        "netstandard1.5": {
+            "dependencies": {
+                "System.Dynamic.Runtime": "4.0.11-rc2-24027"
+            }
+        },
+        "net461": {
+            "buildOptions": {
+                "define": [ "FULLNET" ]
+            },
+            "frameworkAssemblies": {
+                "System.Configuration": "4.0.0.0"
+            }
+        }
+
+    },
+    "buildOptions": {
+        "xmlDoc": true,
+        "nowarn": [ "CS1591" ]
+    }
+}
