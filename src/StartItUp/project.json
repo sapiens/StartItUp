@@ -1,15 +1,13 @@
 ﻿{
-    "version": "2.0.0-beta1",
+    "version": "2.0.0",
     "description": "Light toolkit to organize and execute your app's startup tasks in a maintainable manner",
     "authors": [ "Mihai Mogosanu" ],
     "packOptions": {
-        "tags": [ "bootstrap", "startup", "configuration","task" ],
-        "projectUrl": "https://github.com/sapiens/strapboot",
+        "tags": [ "bootstrap", "startup", "configuration", "task" ],
+        "projectUrl": "https://github.com/sapiens/startitup",
         "licenseUrl": "http://www.apache.org/licenses/LICENSE-2.0.html",
         "owners": [ "Mihai Mogosanu" ]
-    }
-
-    ,
+    },
     "dependencies": {
 
         "CavemanTools": "4.3.1"
