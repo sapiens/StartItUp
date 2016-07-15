@@ -1,7 +1,7 @@
 ﻿#if FULLNET
 using System.Configuration;
 
-namespace Strapboot
+namespace StartItUp
 {
     /// <summary>
     /// For reading settings from app/web.config
