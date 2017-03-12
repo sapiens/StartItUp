@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Light toolkit to organize and execute your app's startup tasks in a maintainable manner</Description>
+    <VersionPrefix>2.0.0</VersionPrefix>
+    <Authors>Mihai Mogosanu</Authors>
+    <TargetFrameworks>net461;netstandard1.5</TargetFrameworks>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>StartItUp</AssemblyName>
+    <PackageId>StartItUp</PackageId>
+    <PackageTags>bootstrap;startup;configuration;task</PackageTags>
+    <PackageProjectUrl>https://github.com/sapiens/startitup</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyCopyrightAttribute>false</GenerateAssemblyCopyrightAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateAssemblyFileVersionAttribute>false</GenerateAssemblyFileVersionAttribute>
+  </PropertyGroup>
+
+
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.5' ">
+
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="CavemanTools" Version="4.6.0" />
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+      <Reference Include="Microsoft.CSharp" />
+      <Reference Include="System.Configuration" />
+  </ItemGroup>
+
+  <PropertyGroup Condition=" '$(TargetFramework)' == 'net461' ">
+
+    <DefineConstants>$(DefineConstants);FULLNET</DefineConstants>
+  </PropertyGroup>
+
+
+</Project>
